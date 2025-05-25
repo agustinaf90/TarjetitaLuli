@@ -1,0 +1,10 @@
+body {
+  background-image: url(img/fondotarjetita.png);
+  background-size: cover;
+  /* Ajusta la imagen de fondo */
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
