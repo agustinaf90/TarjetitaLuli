@@ -1,48 +1,165 @@
 @font-face {
-    font-family: Kailey;
-    src: url("Kailey Latief.ttf");
+  font-family: Kailey;
+  src: url("Kailey Latief.ttf");
 }
 
 @font-face {
-    font-family: Escript LTItalic;
-    src: url("Escript LT Italic.ttf");
+  font-family: ArgentaBold;
+  src: url("Argenta Bold.ttf");
 }
 
 @font-face {
-    font-family: ArgentaBold;
-    src: url("Argenta Bold.ttf");
+  font-family: VanillaBaked;
+  src: url("VanillaBacked.ttf");
 }
 
-div.TITULO2 h1 {
-    font-family: Kailey;
-    font-size: 14rem;
-    color: rgb(255, 255, 255);
-    font-weight: 50;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.15);
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: -160px;
-    /* sube */
+@font-face {
+  font-family: Amatic;
+  src: url("AmaticSC-Bold.ttf");
+}
+
+@font-face {
+  font-family: AmaticRegular;
+  src: url("AmaticSC-Regular.ttf");
+}
+
+@font-face {
+  font-family: RollingBall;
+  src: url("rollingballcursive.ttf");
+}
+
+@font-face {
+  font-family: GoodK;
+  src: url("GoodKarmaSmooth-Regular.ttf");
+}
+
+@font-face {
+  font-family: GoodK;
+  src: url("GoodKarmaSmooth-Regular.ttf");
+}
+@font-face {
+  font-family: GoodV;
+  src: url("GoodVibrations.ttf");
+}
+
+div.contenedor {
+  position: relative;
+}
+
+.nube1 {
+  position: absolute;
+  width: 160px;
+  top: 260px;
+  left: -20px;
+  z-index: 2;
+}
+
+.nube2 {
+  position: absolute;
+  right: -90px;
+  z-index: 2;
+  width: 180px;
+  top: 230px;
+}
+
+div.TITULO1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 div.TITULO1 h2 {
-    font-family: ArgentaBold;
-    font-size: 2.7rem;
-    display: flex;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-weight: 50;
-    letter-spacing: 3px;
+  /*MIS XV*/
+
+  font-family: VanillaBaked;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  font-weight: 10;
+  letter-spacing: 6px;
+  text-shadow: 1px 1px 0 #bbb, -1px -1px 0 #fff,
+    0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+div.TITULO2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -430px;
+  left: -18px;
+}
+
+div.TITULO2 h1 {
+  /*LULI*/
+  font-family: Kailey;
+  font-size: 13rem;
+  color: rgb(255, 255, 255);
+  font-weight: 70;
+  background: linear-gradient(
+    200deg,
+    #022193,
+    #022193,
+    rgb(64, 105, 255),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.9),
+    0 6px 10px rgba(0, 0, 255, 0.8), 4px 4px 3px rgba(255, 255, 255, 0.5);
+}
+
+div.TITULO3 {
+  /*ANIOS*/
+  font-family: GoodK;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -147px;
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.17);
+  text-align: center;
+}
+
+div.FECHA {
+  font-family: GoodK;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -600px; /* ajustá este valor según lo que necesites */
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+div.CUANTOFALTA {
+  font-family: GoodV;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -600px; /* ajustá este valor según lo que necesites */
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 body {
-    background-image: url(img/fondotarjetita.png);
-    background-size: cover;
-    /* Ajusta la imagen de fondo */
-    background-position: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 100vh;
+  background-image: url(img/fondotarjetita.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
 }
