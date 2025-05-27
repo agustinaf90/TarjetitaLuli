@@ -44,10 +44,21 @@
 }
 
 div.contenedor {
+    background-image: url(img/fondoactualizado1.png);
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    max-width: 330px !important;
+    text-align: center;
+    border: 6px solid #4352ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1;
     top: 35px;
     position: relative;
     margin: 0 auto;
-    width: 100%;
+    /*width: 100%;*/
     max-width: 100%;
     max-height: 2400px;
     overflow-x: hidden;
@@ -57,7 +68,7 @@ div.contenedor {
 .nube1 {
     position: absolute;
     width: 180px;
-    top: 293px;
+    top: 320px;
     left: -50px;
     z-index: 2;
     filter: drop-shadow(0 0 4px rgb(0, 0, 0, 0.4));
@@ -65,7 +76,7 @@ div.contenedor {
 
 .nube2 {
     position: absolute;
-    right: -80px;
+    right: -100px;
     z-index: 2;
     width: 200px;
     top: 249px;
@@ -264,8 +275,8 @@ img.loc {
     justify-content: center;
     position: relative;
     width: 17%;
-    top: 950px;
-    left: 165px;
+    top: 970px;
+    left: 135px;
     position: absolute;
     z-index: 2;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
@@ -278,7 +289,7 @@ div.LUGARINFO {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -459px;
+    top: -470px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
@@ -287,26 +298,34 @@ div.LUGARINFO {
 }
 
 img.bord {
-    width: 57%;
-    display: flex;
+    width: 70%;
+    display: block;
+    /* Cambiado de flex a block para evitar conflictos */
+    margin: 4 auto;
+    /* Centra la imagen si es necesario */
     justify-content: center;
     position: relative;
-    top: -560px;
-    left: 81px;
-    z-index: 5;
+    top: -570px;
+    left: 45px;
+    z-index: 8;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
 div.COMOLLEGAR {
-    font-size: 2rem;
-    font-family: GoodK;
+    position: relative;
+    /* Contenedor de referencia */
     width: 100%;
     display: flex;
     justify-content: center;
+    font-size: 2rem;
+    font-family: GoodK;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
         0 0 8px rgba(255, 255, 255, 0.4);
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+    z-index: 10;
+    top: -20px;
+    left: -135px;
 }
 
 div.VESTIMENTA {
@@ -316,7 +335,7 @@ div.VESTIMENTA {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -610px;
+    top: -595px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
@@ -329,8 +348,8 @@ img.vest {
     justify-content: center;
     position: relative;
     width: 37%;
-    top: 1205px;
-    left: 120px;
+    top: 1217px;
+    left: 100px;
     position: absolute;
     z-index: 2;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
@@ -343,7 +362,7 @@ div.CODIGO {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -550px;
+    top: -545px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
@@ -358,7 +377,7 @@ div.CODIGO2 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -547px;
+    top: -545px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
@@ -373,7 +392,7 @@ div.OBSEQUIO {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -513px;
+    top: -507px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
@@ -386,8 +405,8 @@ img.pres {
     justify-content: center;
     position: relative;
     width: 24%;
-    top: 1485px;
-    left: 150px;
+    top: 1527px;
+    left: 130px;
     position: absolute;
     z-index: 2;
     transform: rotate(20deg);
@@ -400,7 +419,7 @@ div.CUENTA {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -416px;
+    top: -465px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 50px 700px rgb(0, 0, 175),
@@ -414,7 +433,7 @@ div.CUENTA2 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -415px;
+    top: -455px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 50px 700px rgb(0, 0, 175),
@@ -428,7 +447,7 @@ div.CUENTA3 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -410px;
+    top: -450px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 50px 700px rgb(0, 0, 175),
@@ -441,7 +460,7 @@ div.CONFIRMAR {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -360px;
+    top: -390px;
     color: rgb(236, 234, 234);
     letter-spacing: 6px;
     text-align: center;
@@ -458,7 +477,7 @@ div.TEESPERO {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -350px;
+    top: -370px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 50px 700px rgb(0, 0, 175),
@@ -467,12 +486,12 @@ div.TEESPERO {
 }
 
 img.bord2 {
-    width: 70%;
+    width: 97%;
     display: flex;
     justify-content: center;
     position: relative;
-    top: -465px;
-    left: 61px;
+    top: -415px;
+    left: 15px;
     z-index: 5;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
@@ -491,17 +510,25 @@ a.aux {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
         0 0 8px rgba(255, 255, 255, 0.4);
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
-    top: 70px;
-    left: 110px;
+    top: 46px;
+    left: 10px;
+}
+
+div.main {
+    position: relative;
+    margin: 5px;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 html,
 body {
-    background-image: url(img/fondotarjetita.png);
-    background-size: cover;
-    background-position: center;
+    background-color: #4873ff;
     margin: 0;
     padding: 0;
     width: 100%;
     min-height: 100vh;
+    /* Reduce el tamaño al 90% */
+    transform-origin: top center;
 }
