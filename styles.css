@@ -44,23 +44,29 @@
 }
 
 div.contenedor {
+    top: 35px;
     position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
 }
 
 .nube1 {
     position: absolute;
-    width: 160px;
-    top: 260px;
-    left: -20px;
+    width: 180px;
+    top: 293px;
+    left: -50px;
     z-index: 2;
+    filter: drop-shadow(0 0 4px rgb(0, 0, 0, 0.4));
 }
 
 .nube2 {
     position: absolute;
-    right: -90px;
+    right: -80px;
     z-index: 2;
-    width: 180px;
-    top: 230px;
+    width: 200px;
+    top: 249px;
+    filter: drop-shadow(0 0 4px rgb(0, 0, 0, 0.4));
 }
 
 div.TITULO1 {
@@ -71,15 +77,17 @@ div.TITULO1 {
 
 div.TITULO1 h2 {
     /*MIS XV*/
-
+    top: 555px;
     font-family: VanillaBaked;
-    font-size: 3rem;
-    color: rgb(255, 255, 255);
-    font-weight: 10;
+    font-size: 3.9rem;
+    color: rgb(236, 234, 234);
+    font-weight: 60;
     letter-spacing: 6px;
-    text-shadow: 1px 1px 0 #bbb, -1px -1px 0 #fff,
-        0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
     text-align: center;
+    /* Sombra negra + difuminado azul oscuro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.705);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 255));
 }
 
 div.TITULO2 {
@@ -87,7 +95,7 @@ div.TITULO2 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -430px;
+    top: -420px;
     left: -18px;
 }
 
@@ -108,6 +116,8 @@ div.TITULO2 h1 {
     background-clip: text;
     text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.9),
         0 6px 10px rgba(0, 0, 255, 0.8), 4px 4px 3px rgba(255, 255, 255, 0.5);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240));
+    filter: drop-shadow(0 0 4px rgb(0, 0, 0, 0.2));
 }
 
 div.TITULO3 {
@@ -117,12 +127,16 @@ div.TITULO3 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -147px;
-    color: rgb(255, 255, 255);
+    top: -160px;
+    color: rgb(0, 0, 0);
     font-size: 4rem;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.17);
+
     text-align: center;
+    /* Sombra negra + difuminado azul oscuro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.705);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 255));
 }
 
 div.FECHA {
@@ -131,13 +145,14 @@ div.FECHA {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -600px;
-    /* ajustá este valor según lo que necesites */
+    top: -594px;
     color: rgb(255, 255, 255);
     font-size: 2rem;
     letter-spacing: 2px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.45);
 }
 
 div.CUANTOFALTA {
@@ -151,8 +166,10 @@ div.CUANTOFALTA {
     color: rgb(255, 255, 255);
     font-size: 2.2rem;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.3);
 }
 
 div.CONT {
@@ -163,8 +180,10 @@ div.CONT {
     position: relative;
     top: -648px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.3);
     font-size: 3.1rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     text-align: center;
     left: 5px;
 }
@@ -176,9 +195,11 @@ div.d-h-m-s {
     justify-content: center;
     position: relative;
     top: -650px;
-    color: rgb(255, 255, 255);
     font-size: 0.8rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
     text-align: center;
     gap: 9px;
     left: 6px;
@@ -189,7 +210,7 @@ img.circ {
     justify-content: center;
     position: relative;
     width: 75%;
-    top: 400px;
+    top: 436px;
     left: 57px;
     position: absolute;
     z-index: 2;
@@ -202,8 +223,12 @@ div.LAFIESTA {
     justify-content: center;
     position: relative;
     top: -555px;
-    color: rgb(255, 255, 255);
     font-size: 5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240));
 }
 
 div.LUGAR {
@@ -215,17 +240,32 @@ div.LUGAR {
     position: relative;
     top: -538px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240));
+}
+
+a.botonenlace {
+    display: inline-block;
+    position: relative;
+    top: -439px;
+    left: 138px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 9999;
 }
 
 img.loc {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 15%;
-    top: 910px;
+    width: 17%;
+    top: 950px;
     left: 165px;
     position: absolute;
     z-index: 2;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
 div.LUGARINFO {
@@ -237,6 +277,10 @@ div.LUGARINFO {
     position: relative;
     top: -459px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 1 2px rgb(0, 0, 0));
 }
 
 img.bord {
@@ -245,8 +289,9 @@ img.bord {
     justify-content: center;
     position: relative;
     top: -560px;
-    left: 80px;
+    left: 81px;
     z-index: 5;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
 div.COMOLLEGAR {
@@ -255,9 +300,10 @@ div.COMOLLEGAR {
     width: 100%;
     display: flex;
     justify-content: center;
-    position: relative;
-    top: -439px;
     color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
 div.VESTIMENTA {
@@ -269,17 +315,22 @@ div.VESTIMENTA {
     position: relative;
     top: -610px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240));
 }
 
 img.vest {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 35%;
-    top: 1165px;
+    width: 37%;
+    top: 1205px;
     left: 120px;
     position: absolute;
     z-index: 2;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
 div.CODIGO {
@@ -291,6 +342,10 @@ div.CODIGO {
     position: relative;
     top: -550px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
 div.CODIGO2 {
@@ -302,6 +357,10 @@ div.CODIGO2 {
     position: relative;
     top: -547px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
 div.OBSEQUIO {
@@ -313,14 +372,18 @@ div.OBSEQUIO {
     position: relative;
     top: -513px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240));
 }
 
 img.pres {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 22%;
-    top: 1449px;
+    width: 24%;
+    top: 1485px;
     left: 150px;
     position: absolute;
     z-index: 2;
@@ -336,6 +399,9 @@ div.CUENTA {
     position: relative;
     top: -416px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
 }
 
 div.CUENTA2 {
@@ -347,6 +413,9 @@ div.CUENTA2 {
     position: relative;
     top: -415px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
 }
 
 div.CUENTA3 {
@@ -358,6 +427,9 @@ div.CUENTA3 {
     position: relative;
     top: -410px;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
 }
 
 div.CONFIRMAR {
@@ -367,7 +439,13 @@ div.CONFIRMAR {
     justify-content: center;
     position: relative;
     top: -360px;
-    color: rgb(255, 255, 255);
+    color: rgb(236, 234, 234);
+    letter-spacing: 6px;
+    text-align: center;
+    /* Sombra negra + difuminado azul oscuro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.705);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 255));
     font-size: 3rem;
 }
 
@@ -379,10 +457,18 @@ div.TEESPERO {
     position: relative;
     top: -350px;
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    font-size: 2.5rem;
 }
 
-div.CONFIRMARASIST {
+a.aux {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 10;
     font-size: 2rem;
     font-family: GoodK;
     width: 100%;
@@ -390,7 +476,10 @@ div.CONFIRMARASIST {
     justify-content: center;
     position: relative;
     top: -320px;
-    color: rgb(255, 255, 255);
+    color: rgb(244, 244, 244);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
 img.bord2 {
@@ -401,8 +490,23 @@ img.bord2 {
     top: -465px;
     left: 61px;
     z-index: 5;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
+.FONDONUEVO {
+    background-color: rgba(13, 54, 255, 0.853);
+    /* o background-color */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    font-family: GoodK;
+    font-size: 1.5rem;
+    clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+html,
 body {
     background-image: url(img/fondotarjetita.png);
     background-size: cover;
@@ -411,4 +515,5 @@ body {
     padding: 0;
     width: 100%;
     min-height: 100vh;
+    overflow-x: hidden;
 }
