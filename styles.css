@@ -185,6 +185,9 @@ div.d-h-m-s {
 }
 
 img.circ {
+    display: flex;
+    justify-content: center;
+    position: relative;
     width: 75%;
     top: 400px;
     left: 57px;
@@ -210,8 +213,162 @@ div.LUGAR {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -540px;
+    top: -538px;
     color: rgb(255, 255, 255);
+}
+
+img.loc {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 15%;
+    top: 910px;
+    left: 165px;
+    position: absolute;
+    z-index: 2;
+}
+
+div.LUGARINFO {
+    font-size: 2rem;
+    font-family: GoodK;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -459px;
+    color: rgb(255, 255, 255);
+}
+
+img.bord {
+    width: 57%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -560px;
+    left: 80px;
+    z-index: 5;
+}
+
+div.COMOLLEGAR {
+    font-size: 2rem;
+    font-family: GoodK;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -439px;
+    color: rgb(255, 255, 255);
+}
+
+div.VESTIMENTA {
+    font-size: 2.9rem;
+    font-family: GoodV;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -610px;
+    color: rgb(255, 255, 255);
+}
+
+img.vest {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 35%;
+    top: 1165px;
+    left: 120px;
+    position: absolute;
+    z-index: 2;
+}
+
+div.CODIGO {
+    font-size: 2rem;
+    font-family: GoodK;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -550px;
+    color: rgb(255, 255, 255);
+}
+
+div.CODIGO2 {
+    font-size: 2rem;
+    font-family: GoodK;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -547px;
+    color: rgb(255, 255, 255);
+}
+
+div.OBSEQUIO {
+    font-size: 2.9rem;
+    font-family: GoodV;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -513px;
+    color: rgb(255, 255, 255);
+}
+
+img.pres {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 22%;
+    top: 1449px;
+    left: 150px;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(20deg);
+}
+
+div.CUENTA {
+    font-size: 2rem;
+    font-family: GoodK;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -416px;
+    color: rgb(255, 255, 255);
+}
+
+div.CUENTA2 {
+    font-size: 2rem;
+    font-family: GoodK;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -415px;
+    color: rgb(255, 255, 255);
+}
+
+div.CONFIRMAR {
+    font-family: GoodV;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -380px;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+div.TEESPERO {
+    font-family: GoodV;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -375px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
 }
 
 body {
