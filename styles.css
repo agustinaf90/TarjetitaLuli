@@ -349,13 +349,24 @@ div.CUENTA2 {
     color: rgb(255, 255, 255);
 }
 
+div.CUENTA3 {
+    font-size: 2rem;
+    font-family: GoodK;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -410px;
+    color: rgb(255, 255, 255);
+}
+
 div.CONFIRMAR {
     font-family: GoodV;
     width: 100%;
     display: flex;
     justify-content: center;
     position: relative;
-    top: -380px;
+    top: -360px;
     color: rgb(255, 255, 255);
     font-size: 3rem;
 }
@@ -366,9 +377,30 @@ div.TEESPERO {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -375px;
+    top: -350px;
     color: rgb(255, 255, 255);
     font-size: 2rem;
+}
+
+div.CONFIRMARASIST {
+    font-size: 2rem;
+    font-family: GoodK;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -320px;
+    color: rgb(255, 255, 255);
+}
+
+img.bord2 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -465px;
+    left: 61px;
+    z-index: 5;
 }
 
 body {
