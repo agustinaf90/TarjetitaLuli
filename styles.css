@@ -806,6 +806,8 @@ nav.navbar {
 
 html,
 body {
+    position: relative;
+
     background-color: #4873ff;
     margin: 0;
     padding: 0;
