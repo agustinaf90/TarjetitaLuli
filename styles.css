@@ -43,6 +43,7 @@
     src: url("Collier Thin.ttf");
 }
 
+/*
 @keyframes moverU {
     0% {
         top: 360px;
@@ -110,17 +111,16 @@
         transform: rotate(0deg);
     }
 }
-
+*/
 img.avion5 {
     width: 110px;
     position: absolute;
     top: 2080px;
     left: -5px;
-    z-index: 100;
     text-shadow: 0 0px 7px rgba(60, 145, 255, 0.902);
     filter: drop-shadow(0 1px 4px rgb(92, 125, 255));
     filter: drop-shadow(0 1px 2px rgb(0, 0, 0, 0.2));
-
+    z-index: 20;
     transform: scaleX(-1) rotate(-130deg);
 }
 
@@ -129,11 +129,11 @@ img.avion4 {
     position: absolute;
     top: 1480px;
     left: 290px;
-    z-index: 100;
     /* transform: scaleX(-1) rotate(-2deg);*/
     text-shadow: 0 0px 7px rgba(60, 145, 255, 0.902);
     filter: drop-shadow(0 1px 4px rgb(92, 125, 255));
     filter: drop-shadow(0 1px 2px rgb(0, 0, 0, 0.2));
+    z-index: 20;
 
     transform: scaleX(-1) rotate(38deg);
 }
@@ -143,10 +143,10 @@ img.avion3 {
     position: absolute;
     top: 760px;
     left: 5px;
-    z-index: 100;
     text-shadow: 0 0px 7px rgba(60, 145, 255, 0.902);
     filter: drop-shadow(0 1px 4px rgb(92, 125, 255));
     filter: drop-shadow(0 1px 2px rgb(0, 0, 0, 0.2));
+    z-index: 20;
 
     transform: scaleX(-1) rotate(-135deg);
 }
@@ -156,12 +156,12 @@ img.avion2 {
     position: absolute;
     top: 350px;
     left: 260px;
-    z-index: 100;
     text-shadow: 0 0px 7px rgba(60, 145, 255, 0.902);
     filter: drop-shadow(0 1px 4px rgb(92, 125, 255));
     filter: drop-shadow(0 1px 2px rgb(0, 0, 0, 0.2));
     transform: scaleX(-1) rotate(255deg);
-    animation: moverU 2.5s ease-out forwards;
+    /*animation: moverU 2.5s ease-out forwards;*/
+    z-index: 20;
 }
 
 img.trace1 {
@@ -169,10 +169,10 @@ img.trace1 {
     position: absolute;
     top: 2210px;
     left: 30px;
-    z-index: 100;
     text-shadow: 0 0px 7px rgba(60, 145, 255, 0.902);
     filter: drop-shadow(0 1px 4px rgb(92, 125, 255));
     transform: scaleX(-1) rotate(60deg);
+    z-index: 20;
 }
 
 img.avion1 {
@@ -180,9 +180,9 @@ img.avion1 {
     position: absolute;
     top: 2250px;
     left: 100px;
-    z-index: 100;
     text-shadow: 0 0px 7px rgba(60, 145, 255, 0.902);
     filter: drop-shadow(0 1px 4px rgb(92, 125, 255));
+    z-index: 20;
 }
 
 img.nube11 {
@@ -190,10 +190,8 @@ img.nube11 {
     position: absolute;
     top: -10px;
     left: -10px;
-    z-index: 100;
+    z-index: 10;
     transform: scaleX(-1) rotate(15deg);
-    transform: scale(1);
-    z-index: 60;
 }
 
 img.nubeaux2 {
@@ -201,10 +199,8 @@ img.nubeaux2 {
     position: absolute;
     top: 720px;
     left: -30px;
-    z-index: 100;
+    z-index: 10;
     /* transform: scaleX(-1) rotate(-5);*/
-    transform: scale(1);
-    z-index: 60;
 }
 
 img.nubeaux3 {
@@ -212,10 +208,8 @@ img.nubeaux3 {
     position: absolute;
     top: 505px;
     left: 250px;
-    z-index: 100;
+    z-index: 10;
     transform: scaleX(-1) rotate(-2deg);
-    transform: scale(1);
-    z-index: 60;
 }
 
 img.nubeaux4 {
@@ -223,10 +217,8 @@ img.nubeaux4 {
     position: absolute;
     top: 955px;
     left: 250px;
-    z-index: 100;
+    z-index: 10;
     /* transform: scaleX(-1) rotate(-2deg);*/
-    transform: scale(1);
-    z-index: 60;
 }
 
 img.nubeaux5 {
@@ -234,10 +226,8 @@ img.nubeaux5 {
     position: absolute;
     top: 1150px;
     left: -30px;
-    z-index: 100;
+    z-index: 10;
     transform: scaleX(1) rotate(0deg);
-    transform: scale(1);
-    z-index: 60;
 }
 
 img.nubeaux6 {
@@ -245,10 +235,8 @@ img.nubeaux6 {
     position: absolute;
     top: 1440px;
     left: 250px;
-    z-index: 100;
+    z-index: 10;
     /* transform: scaleX(-1) rotate(-2deg);*/
-    transform: scale(1);
-    z-index: 60;
 }
 
 img.nubeaux7 {
@@ -256,10 +244,8 @@ img.nubeaux7 {
     position: absolute;
     top: 1610px;
     left: -40px;
-    z-index: 100;
+    z-index: 10;
     transform: scaleX(1) rotate(0deg);
-    transform: scale(1);
-    z-index: 60;
 }
 
 img.nubeaux8 {
@@ -267,11 +253,10 @@ img.nubeaux8 {
     position: absolute;
     top: 1790px;
     left: 250px;
-    z-index: 100;
+    z-index: 10;
     /* transform: scaleX(-1) rotate(-2deg);*/
 
-    transform: scale(1);
-    z-index: 60;
+    transform: scaleX(1);
 }
 
 img.nubeaux9 {
@@ -279,10 +264,8 @@ img.nubeaux9 {
     position: absolute;
     top: 2040px;
     left: -30px;
-    z-index: 100;
+    z-index: 10;
     transform: scaleX(1) rotate(0deg);
-    transform: scale(1);
-    z-index: 60;
 }
 
 img.nubeaux10 {
@@ -290,10 +273,8 @@ img.nubeaux10 {
     position: absolute;
     top: 2150px;
     left: 250px;
-    z-index: 100;
+    z-index: 10;
     /* transform: scaleX(-1) rotate(-2deg);*/
-    transform: scale(1);
-    z-index: 60;
 }
 
 div.contenedor {
@@ -479,18 +460,14 @@ div.d-h-m-s {
 }
 
 img.circ {
-    position: absolute;
-    /* Posiciona la imagen respecto al contenedor padre */
-    width: 93%;
-    /* O usa un valor fijo como 300px si quieres tamaño constante */
-    max-width: 300px;
-    /* Limita el tamaño máximo para evitar que crezca demasiado */
-    top: 472px;
-    /* Ajusta según el diseño */
-    left: 20px;
-    /* Ajusta según el diseño */
-    z-index: 2;
     display: block;
+
+    position: absolute;
+    width: 93%;
+    /*  max-width: 300px;*/
+    top: 472px;
+    left: 20px;
+    z-index: 12;
 }
 
 div.LAFIESTA {
@@ -534,14 +511,13 @@ a.botonenlace {
 }
 
 img.loc {
-    display: flex;
-    justify-content: center;
-    position: relative;
+    display: block;
+
     width: 17%;
     top: 970px;
     left: 135px;
     position: absolute;
-    z-index: 2;
+    z-index: 12;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
@@ -607,9 +583,7 @@ div.VESTIMENTA {
 }
 
 img.vest {
-    display: flex;
-    justify-content: center;
-    position: relative;
+    display: block;
     width: 37%;
     top: 1217px;
     left: 100px;
@@ -664,9 +638,7 @@ div.OBSEQUIO {
 }
 
 img.pres {
-    display: flex;
-    justify-content: center;
-    position: relative;
+    display: block;
     width: 24%;
     top: 1527px;
     left: 130px;
@@ -750,12 +722,15 @@ div.TEESPERO {
 
 img.bord2 {
     width: 99%;
-    display: flex;
+    display: block;
+    /* Cambiado de flex a block para evitar conflictos */
+    margin: 4 auto;
+    /* Centra la imagen si es necesario */
     justify-content: center;
     position: relative;
     top: -415px;
     left: 5px;
-    z-index: 5;
+    z-index: 12;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 }
 
