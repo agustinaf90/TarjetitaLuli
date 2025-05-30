@@ -9,94 +9,133 @@
     <script src="interactivo.js" defer></script>
 </head>
 
-<body>
-    <img src="img/sky_2.png" class="nubeaux2" />
-    <img src="img/sky_2.png" class="nubeaux3" />
-    <img src="img/sky_2.png" class="nubeaux4" />
-    <img src="img/sky_2.png" class="nubeaux5" />
-    <img src="img/sky_2.png" class="nubeaux6" />
-    <img src="img/sky_2.png" class="nubeaux7" />
-    <img src="img/sky_2.png" class="nubeaux8" />
-    <img src="img/sky_2.png" class="nubeaux9" />
-    <img src="img/sky_2.png" class="nubeaux10" />
-    <img src="img/AVIONESS 13.png" class="avion1" />
-    <img src="img/line 1.png" class="trace1" />
-    <!-- <img src="img/line 1.png" class="trace2" /> -->
-    <img src="img/AVION 12.png" class="avion2" />
-    <img src="img/AVION 10.png" class="avion3" />
-    <img src="img/AVION 12.png" class="avion4" />
-    <img src="img/AVION 10.png" class="avion5" />
+<body> 
+    <!DOCTYPE html>
+    <html lang="en">
 
-    <div class="main">
-        <div class="contenedor">
-            <div class="nubes">
-                <img src="img/sky_2.png" class="nube1" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tarjeta</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="interactivo.js" defer></script>
+
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="contenedorhojas">
+                <!-- NUBES  -->
+                 <!--
+                <img src="img/sky_2.png" class="nubeaux2" />
+                <img src="img/sky_2.png" class="nubeaux3" />
+                <img src="img/sky_2.png" class="nubeaux4" />
+                <img src="img/sky_2.png" class="nubeaux5" />
+                <img src="img/sky_2.png" class="nubeaux6" />
+                <img src="img/sky_2.png" class="nubeaux7" />
+                <img src="img/sky_2.png" class="nubeaux8" />
+                <img src="img/sky_2.png" class="nubeaux9" />
+                <img src="img/sky_2.png" class="nubeaux10" />
+                <img src="img/AVIONESS 13.png" class="avion1" />
+                <img src="img/line 1.png" class="trace1" />
+                <!-- <img src="img/line 1.png" class="trace2" />
+                <img src="img/AVION 12.png" class="avion2" />
+                <img src="img/AVION 10.png" class="avion3" />
+                <img src="img/AVION 12.png" class="avion4" />
+                <img src="img/AVION 10.png" class="avion5" /> 
+                -->
             </div>
+            
 
-            <div class="nubes">
-                <img src="img/sky_2.png" class="nube2" />
-            </div>
+            <div class="contcentrado">
+                <!--
+                <div class="nubes">
+                    <img src="img/sky_2.png" class="nube1" />
+                </div>
 
-            <div class="TITULO1">
-                <h2>MIS XV</h2>
-            </div>
+                <div class="nubes">
+                    <img src="img/sky_2.png" class="nube2" />
+                </div>  -->
 
-            <div class="TITULO3">
-                <h5>años</h5>
-            </div>
-
-            <div class="TITULO2">
+                <h2 class="misxv">MIS&nbsp;&nbsp;XV</h2>
+                <h2 class="anios">años</h2>
                 <h1>Luli</h1>
-            </div>
 
-            <div class="FECHA">
-                <h4>19 de julio 2025, 21:30 Hs.</h4>
-            </div>
 
-            <div class="contador">
-                <img src="img/Circunsferencia.png" class="circ" />
-                <div class="CUANTOFALTA">
-                    <h3>Cuánto falta?</h3>
+                <h2 class="fecha">
+                    19 de julio 2025, 21:30 Hs.
+                </h2>
+
+                <div class="contador">
+                     <img src="img/Circunsferencia.png" class="circ" />
+                    <h2 class="cont">Cuánto falta?</h2>
+                    <div class="alineador">
+                        <!-- Aquí se le añade un ID al h2 para actualizar el tiempo desde JavaScript -->
+                        <h2 class="timing" id="tiempo">  00&nbsp;:&nbsp;00&nbsp;:&nbsp;00&nbsp;:&nbsp;00</h2>
+                        <h2 class="d-h-m-s">
+                            <span>DÍAS</span>
+                            <span>HORAS</span>
+                            <span>MINUTOS</span>
+                            <span>SEGUNDOS</span>
+                        </h2>
+                    </div>
                 </div>
-                <div class="CONT" id="tiempo">
-                    00&nbsp;:&nbsp;00&nbsp;:&nbsp;00&nbsp;:&nbsp;00
+
+                <h2 class="Fiesta">La fiesta</h2>
+                <h2 class="Lugar">Lugar</h2>
+                <img src="img/PINLOCATION1.png" class="loc" />
+                <h2 class="direccion">Salón Arequita</h2>
+
+                <div class="agrupadorboton">
+                    <img src="img/borde.png" class="bord" />
+
+
+                    <a href="https://www.google.com/maps/place/Sal%C3%B3n+Arequita/@-34.2923589,-55.2757171,17z/data=!4m14!1m7!3m6!1s0x950abd051299fae1:0x94e55c86f06f835f!2sSal%C3%B3n+Arequita!8m2!3d-34.2924819!4d-55.2761187!16s%2Fg%2F11sxgr07dv!3m5!1s0x950abd051299fae1:0x94e55c86f06f835f!8m2!3d-34.2924819!4d-55.2761187!16s%2Fg%2F11sxgr07dv?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                        <h2 class="comollegar">Cómo Llegar</h2>
+                    </a>
+
                 </div>
-                <div class="d-h-m-s">
-                    <span>DÍAS</span>
-                    <span>HORAS</span>
-                    <span>MINUTOS</span>
-                    <span>SEGUNDOS</span>
+
+                <h2 class="vestimenta">Vestimenta</h2>
+
+                <img src="img/CLOTHHANGER.png" class="vest" />
+                
+                <h2 class="codigo">Vestimenta Formal</h2>
+                <h2 class="codigo2">No se puede usar ni blanco ni azul</h2>
+                
+                <h2 class="obsequio">Obsequio</h2>
+
+               
+                <img src="img/PRESENT.png" class="pres" />
+                
+                <h3 class="cuenta">BROU</h3>
+                <h3 class="datos">Nº Cuenta: <span class="numero-cuenta">&nbsp;001209664-00001</span></h3>
+                <h3 class="nombre">Ana Laura Ramírez</h3>
+                 
+                <h2 class="confirmacion">
+                    <span class="con">Confirmar asistencia</span>
+
+                </h2>
+
+                <h2 class="teespero">Te espero</h2>
+
+
+                <div class="agrupadorboton">
+                    <img src="img/borde.png" class="bord2" />  
+            
+                    <a href="https://wa.me/59899664506"> 
+                        <h2 class="confirmacion2">Confirmar Asistencia</h2>
+                    </a>
                 </div>
+                <!--<img src="img/AVIONESS 13.png" class="avion1" />-->
+
+
+
+                
             </div>
-
-            <div class="LAFIESTA">La fiesta</div>
-            <div class="LUGAR">Lugar</div>
-            <img src="img/PINLOCATION1.png" class="loc" />
-            <div class="LUGARINFO">Salón Arequita</div>
-
-            <a href="https://www.google.com/maps/place/Sal%C3%B3n+Arequita/@-34.2923589,-55.2757171,17z/data=!4m14!1m7!3m6!1s0x950abd051299fae1:0x94e55c86f06f835f!2sSal%C3%B3n+Arequita!8m2!3d-34.2924819!4d-55.2761187!16s%2Fg%2F11sxgr07dv!3m5!1s0x950abd051299fae1:0x94e55c86f06f835f!8m2!3d-34.2924819!4d-55.2761187!16s%2Fg%2F11sxgr07dv?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" class="botonenlace">
-                <div class="COMOLLEGAR">Cómo Llegar</div>
-            </a>
-
-            <img src="img/borde.png" class="bord" />
-            <div class="VESTIMENTA">Vestimenta</div>
-            <img src="img/CLOTHHANGER.png" class="vest" />
-            <div class="CODIGO">Vestimenta Formal</div>
-            <div class="CODIGO2">No se puede usar ni blanco ni azul</div>
-            <div class="OBSEQUIO">Obsequio</div>
-            <a href="https://wa.me/59899664506" class="aux">
-                Confirmar asistencia
-            </a>
-            <img src="img/PRESENT.png" class="pres" />
-            <div class="CUENTA">BROU</div>
-            <div class="CUENTA2">Nº Cuenta: 001209664-00001</div>
-            <div class="CUENTA3">Ana Laura Ramírez</div>
-            <div class="CONFIRMAR">Confirmar asistencia</div>
-            <div class="TEESPERO">Te espero</div>
-            <img src="img/borde.png" class="bord2" />
+                
+            <nav class="navbar">Luli</nav>
         </div>
-    </div>
-    <nav class="navbar">Luli</nav>
 </body>
 
 </html>
