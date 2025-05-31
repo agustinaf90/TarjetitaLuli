@@ -43,6 +43,13 @@
     src: url("Collier Thin.ttf");
 }
 
+* {
+  color-scheme: light;
+}
+
+.contenedorhojas {
+  position: relative;
+}
 
 body {
     background-color: #4873ff;
@@ -93,9 +100,10 @@ div.main .navbar h4 {
   margin-left: -20px;
 }
  */ 
-.main .contenedorhojas {
+div.main .contenedorhojas {
   position: relative;
 }
+
 
 div.main .contenedorhojas .hoja12 {
   width: 140px;
@@ -198,7 +206,7 @@ div.contcentrado h2.misxv {
     letter-spacing: 6px;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
-        0 0 8px rgba(255, 255, 255, 0.705);
+        0 0 8px rgba(255, 255, 255, 0.8);
     filter: drop-shadow(0 0 4px rgb(0, 17, 255));
 }
 
@@ -211,7 +219,7 @@ div.contcentrado h2.anios {
     letter-spacing: 6px;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
-        0 0 8px rgba(255, 255, 255, 0.705);
+        0 0 8px rgba(255, 255, 255, 0.8);
     filter: drop-shadow(0 0 4px rgb(0, 17, 255));
 }
 
@@ -242,14 +250,13 @@ div.contcentrado .fecha {
  color: rgb(255, 255, 255);
 font-size: 2rem;
 letter-spacing: 2px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 50px 700px rgb(0, 0, 175),
         0 0 8px rgba(255, 255, 255, 0.65);
     text-align: center;
 }
 
 div.contcentrado .contador img.circ {
-    width: 100%;
+    width: 105%;
     max-width: 310px;
     height: auto;
     display: block;
@@ -257,40 +264,41 @@ div.contcentrado .contador img.circ {
 }
 
 div.contcentrado .contador .cont {
-    transform: translateY(-600px); /* Mueve la imagen hacia arriba */
+    transform: translateY(-610px); /* Mueve la imagen hacia arriba */
     font-family: GoodV;
     width: 100%;
     color: rgb(255, 255, 255);
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
-        0 0 8px rgba(255, 255, 255, 0.4);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.7);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.1));
+    font-weight: 60;
 }
 
 div.contcentrado .contador .d-h-m-s {
-    transform: translateY(-690px); /* Mueve la imagen hacia arriba */
+    transform: translateY(-700px); /* Mueve la imagen hacia arriba */
     font-family: collier;
     font-size: 0.8rem;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 50px 700px rgb(0, 0, 175),
         0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.1));
     text-align: center;
 
 }
 
 div.contcentrado .contador .timing {
-    transform: translateY(-650px); /* Mueve la imagen hacia arriba */
+    transform: translateY(-660px); /* Mueve la imagen hacia arriba */
     width: 100%;
     text-align: center;
-    font-size: 3.1rem;
+    font-size: 2.7rem;
     font-family: GoodK;
     background: linear-gradient(to right, #c0c0c0, #ffffff, #c0c0c0);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
-        0 0 8px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.1));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -303,13 +311,10 @@ div.contcentrado .obsequio,
 div.contcentrado .confirmacion {
   font-size: 5rem;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
-        0 0 8px rgba(255, 255, 255, 0.4);
     filter: drop-shadow(0 0 4px rgb(0, 17, 240));
     transform: translateY(-690px); /* Mueve la imagen hacia arriba */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
-    0 0 8px rgba(255, 255, 255, 0.65);
+    0 0 8px rgba(255, 255, 255, 0.6);
 
 }
 
@@ -351,8 +356,13 @@ div.contcentrado .confirmacion {
     font-family: GoodV;
       font-size: 2.9rem;
         font-weight: 60;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
-        0 0 8px rgba(255, 255, 255, 0.65);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+            0 0 8px rgba(255, 255, 255, 0.4);
+        font-weight: 60;
+        filter: drop-shadow(0 0 4px rgb(0, 17, 240));
+    text-shadow:
+    0 0 8px rgba(255, 255, 255, 0.4);
+    
 }
 
 div.contcentrado .confirmacion .con { /*****************************************************************/
@@ -365,7 +375,6 @@ div.contcentrado .loc,
 div.contcentrado .vest,
 div.contcentrado .reg {
   display: block;
-    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
     margin: 0 auto; /* Centra horizontalmente */
 
 }
@@ -375,6 +384,8 @@ div.contcentrado .loc {
     width: 20%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
     0 0 8px rgba(255, 255, 255, 0.65);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.2));
+
 }
 
 div.contcentrado .vest {
@@ -382,6 +393,8 @@ transform: translateY(-1010px); /* Mueve la imagen hacia arriba */
     width: 45%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
     0 0 8px rgba(255, 255, 255, 0.65);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.2));
+
 
 }
 
@@ -390,63 +403,60 @@ div.contcentrado .pres {
     width: 35%; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
     0 0 8px rgba(255, 255, 255, 0.65);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.2));
+
 }
 
 
 div.contcentrado .direccion,
 div.contcentrado .codigo,
-div.contcentrado .teespero,
 div.contcentrado .codigo2{
 font-size: 2rem;
 font-family: GoodK;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
-        0 0 8px rgba(255, 255, 255, 0.4);
-    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
     font-weight: 60;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
-        0 0 8px rgba(255, 255, 255, 0.4);
-    filter: drop-shadow(0 0 4px rgb(0, 17, 240));
 }
 
 div.contcentrado .codigo {
     transform: translateY(-1055px); /* Mueve la imagen hacia arriba */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
         0 0 8px rgba(255, 255, 255, 0.4);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
-        0 0 8px rgba(255, 255, 255, 0.4);
-    filter: drop-shadow(0 0 4px rgb(0, 17, 240));
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.1));
 }
 
 div.contcentrado .codigo2 {
     transform: translateY(-1075px); /* Mueve la imagen hacia arriba */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
         0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.1));
 }
 
 div.contcentrado .direccion {
 font-size: 2rem;
 font-family: GoodK;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    filter: drop-shadow(0 1 2px rgb(0, 0, 0));
     transform: translateY(-760px); /* Mueve la imagen hacia arriba */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
         0 0 8px rgba(255, 255, 255, 0.4);
-    filter: drop-shadow(0 0 4px rgb(0, 17, 240));
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.1));
     font-weight: 60;
 }
 
 div.contcentrado .teespero { /*------------------------------------------------------------------*/
     transform: translateY(-1060px);
+    font-size: 2.5rem;
+    font-family: GoodV;
+    letter-spacing: 1px;
+        color: rgb(255, 255, 255);
+       
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+            0 0 8px rgba(255, 255, 255, 0.4);
+        font-weight: 60;
+        filter: drop-shadow(0 0 4px rgb(0, 17, 240));
+    text-shadow:
+    0 0 8px rgba(255, 255, 255, 0.4);
 
 }
 
@@ -462,8 +472,10 @@ div.contcentrado .agrupadorboton .bord {
 div.contcentrado .agrupadorboton .comollegar {
     color: rgb(255, 255, 255);
     font-size: 2rem;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
         0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.1));
     font-family: GoodK;
     font-weight: 60;
 }
@@ -490,6 +502,7 @@ div.contcentrado .agrupadorboton .bord2{
     
 width: 100%;
     transform: translateY(-1140px);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
 
 }
 
@@ -503,10 +516,11 @@ div.contcentrado .datos,
 div.contcentrado .nombre {
     font-family: GoodK;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
         0 0 8px rgba(255, 255, 255, 0.4);
-    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.1));
+    
+    
     font-size: 2rem;
   margin: auto;
     font-weight:60;
@@ -529,18 +543,169 @@ div.contcentrado .numero-cuenta {
 }
 
 /* Hojas (ajustadas para responsividad, sobre bordes de div.contcentrado, sin fixed) */
-div.main .hoja1,
-div.main .hoja2,
-div.main .hoja3,
-div.main .hoja32,
-div.main .hoja44,
-div.main .hoja5,
-div.main .hoja6,
-div.main .hoja12,
-div.main .hoja22 {
+div.main .nubeaux2 {
   position: absolute;
-  width: 20%;
-  max-width: 190px;
+  width: 23%;
   z-index: 5;
 }
+div.main .contenedorhojas .nubeaux2{
+  transform: scaleX(1) rotate(-1deg); 
+     transform: translateY(20px) translatex(-15x);   
 
+}
+
+div.main .contenedorhojas .nubeaux3{
+transform: scaleX(-1) rotate(-10deg);
+ transform: translateY(-120px);   
+    position: absolute;
+      width: 55%;
+      z-index: 5;
+}
+
+div.main .contenedorhojas .nubeaux4{
+      position: absolute;
+      width: 53%;
+      z-index: 5;
+      width: 49%;
+      transform: translateX(-10%) translateY(-205px) scaleX(1) rotate(-3deg); 
+
+}
+
+div.main .contenedorhojas .nubeaux5{
+    position: absolute;
+      width: 53%;
+      z-index: 5;
+      transform: translateX(5%) translateY(-165px) scaleX(1) rotate(0deg); 
+}
+
+div.main .contenedorhojas .nubeaux6{
+    position: absolute;
+      width: 53%;
+      z-index: 5;
+      transform: translateX(-3%) translateY(-86px) scaleX(1) rotate(0deg); 
+}
+
+div.main .contenedorhojas .nubeaux7{
+    position: absolute;
+      width: 49%;
+      z-index: 5;
+  transform: translateX(5%) translateY(-180px) scaleX(1) rotate(0deg); 
+}
+
+div.main .contenedorhojas .nubeaux8{
+    position: absolute;
+      width: 53%;
+      z-index: 5;
+ transform: translateX(0%) translateY(400px) scaleX(1) rotate(0deg); 
+}
+
+div.main .contenedorhojas .nubeaux9{
+    position: absolute;
+      z-index: 5;
+      width: 55%;
+      transform: translateX(105%) translateY(570px) scaleX(1) rotate(2deg); 
+
+}
+
+div.main .contenedorhojas  .nubeaux10 { 
+    position: absolute;
+                          width: 49%;
+                          z-index: 5;
+                      transform: translateX(145%) translateY(2010px) scaleX(1) rotate(0deg); 
+                    }
+div.main .contenedorhojas  .nubeaux10 { 
+    position: absolute;
+                          width: 49%;
+                          z-index: 5;
+                      transform: translateX(145%) translateY(2020px) scaleX(1) rotate(0deg); 
+                    }
+div.main .contenedorhojas  .nubeaux11 { 
+    position: absolute;
+                          width: 49%;
+                          z-index: 5;
+                      transform: translateX(120%) translateY(2210px) scaleX(1) rotate(0deg); 
+                    }
+
+div.main .contenedorhojas .nubeaux12 { 
+    position: absolute;
+                          width: 49%;
+                          z-index: 5;
+                      transform: translateX(-20%) translateY(2125px) scaleX(1) rotate(-4deg); 
+                    }
+div.main .contenedorhojas .avion1 {
+    position: absolute;
+          width: 49%;
+          z-index: 5;
+      transform: translateX(50%) translateY(2350px) scaleX(1) rotate(1deg);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175),
+        0 0 8px rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.1));
+
+    
+}
+
+div.main .contenedorhojas .trace1 {
+    position: absolute;
+          width: 30%;
+          z-index: 5;
+      transform: translateX(20%) translateY(2290px) scaleX(1) rotate(-35deg); 
+}
+
+div.main .contenedorhojas .avion2 {
+    position: absolute;
+      z-index: 10;
+      width: 25%;
+      transform: translateX(295%) translateY(400px) scaleX(1) rotate(-7deg);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175, 0.1),
+        0 0 8px rgba(255, 255, 255, 0.5);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.2));
+}
+div.main .contenedorhojas .avion3 {
+    position: absolute;
+      z-index: 10;
+      width: 25%;
+      transform: translateX(10%) translateY(845px) scaleX(1) rotate(45deg);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175, 0.1),
+        0 0 8px rgba(255, 255, 255, 0.5);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.2));
+}
+
+div.main .contenedorhojas .avion4 {
+    position: absolute;
+      width: 25%;
+      z-index: 10;
+      transform: translateX(300%) translateY(1580px) scaleX(1) rotate(-130deg); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175, 0.1),
+        0 0 8px rgba(255, 255, 255, 0.5);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.2));
+}
+
+div.main .contenedorhojas .avion5 {
+    position: absolute;
+      width: 25%;
+      z-index: 10;
+      transform: translateX(10%) translateY(2160px) scaleX(1) rotate(45deg); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175, 0.1),
+        0 0 8px rgba(255, 255, 255, 0.5);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.2));
+}
+
+div.main .contenedorhojas .avionprincip {
+    position: absolute;
+      width: 25%;
+      z-index: 10;
+      transform: translateX(-20%) translateY(40px) scaleX(1) rotate(139deg); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175, 0.1),
+        0 0 8px rgba(255, 255, 255, 0.5);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.2));
+}
+
+div.main .contenedorhojas .avionprincip2 {
+    position: absolute;
+      width: 25%;
+      z-index: 10;
+      transform: translateX(330%) translateY(50px) scaleX(1) rotate(-80deg); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 50px 700px rgb(0, 0, 175, 0.1),
+        0 0 8px rgba(255, 255, 255, 0.5);
+    filter: drop-shadow(0 0 4px rgb(0, 17, 240,0.2));
+}
